@@ -14,7 +14,7 @@ withDefaults(
 <template>
   <component
     :is="as"
-    class="text-2xl font-medium tracking-wider text-white uppercase"
+    class="text-2xl font-medium tracking-wider uppercase"
     :class="{ 'border border-orange inline-block px-2': border }"
     ><slot></slot
   ></component>

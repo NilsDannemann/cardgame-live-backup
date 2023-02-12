@@ -2,7 +2,6 @@
 import Heading from '../components/Heading.vue';
 import LayoutDefault from '../layouts/LayoutDefault.vue';
 import Button from '../components/Button.vue';
-import IconChevron from '../components/icons/IconChevron.vue';
 </script>
 
 <template>
@@ -12,23 +11,16 @@ import IconChevron from '../components/icons/IconChevron.vue';
 
       <div class="space-y-6">
         <p>
-          Tic Tac Go is a game created by
-          <a class="underline text-blue" target="_blank" href="https://pixelhop.io">Pixelhop</a> for a tutorial series
-          on how to create a real-time game with
-          <a class="underline text-blue" target="_blank" href="https://supabase.com">supabase</a> and
-          <a class="underline text-blue" target="_blank" href="https://vuejs.org">Vue.js</a>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt amet.
         </p>
 
         <p>
-          If you would like to learn how to build something similar, read the tutorial series here:
-          <a class="underline text-blue" href="https://pixelhop.io/writing" target="_blank"
-            >Build a real-time game with supabase and Vue</a
-          >
+          This is <a class="underline text-red" href="#" target="_blank">a Link</a> lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.
         </p>
       </div>
 
       <div class="flex justify-between">
-        <Button as="router-link" to="/" theme="secondary"><IconChevron class="h-5 rotate-180 mr-2" /> Back</Button>
+        <Button as="router-link" to="/" theme="secondary">Back</Button>
       </div>
     </div>
   </LayoutDefault>

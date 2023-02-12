@@ -18,8 +18,8 @@ const props = withDefaults(
 
 const classes = computed(() => {
   const classMap = {
-    primary: 'border-blue drop-shadow-blue hover:bg-blue hover:bg-opacity-10',
-    secondary: 'border-white hover:bg-white hover:bg-opacity-10',
+    primary: 'bg-black-dark text-white bg-opacity-25 hover:bg-opacity-100',
+    secondary: 'bg-white text-black',
   };
 
   let theClasses = `${classMap[props.theme]}`;
@@ -36,7 +36,7 @@ const classes = computed(() => {
   <component
     v-bind="$attrs"
     :is="as"
-    class="font-medium text-sm text-white border uppercase px-4 py-1 transition-colors appearance-none text-center flex items-center justify-center"
+    class="font-medium text-sm rounded uppercase px-4 py-2 transition-colors appearance-none text-center flex items-center justify-center"
     :class="classes"
     :type="type"
     ><slot></slot

@@ -1,0 +1,4 @@
+- Remove Game Logic (Keep: Rounds, Round-Steps, Player Sharing etc)
+- Simplify Styles
+- Add Nuxt3 (?)
+- Experiment with animejs

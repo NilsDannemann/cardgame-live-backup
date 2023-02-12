@@ -35,7 +35,7 @@ const {
     <label v-if="label" class="text-xs text-gray-400 uppercase mb-2 block" :for="name">{{ label }}</label>
     <input
       :id="name"
-      class="border border-blue bg-blue bg-opacity-10 w-full px-2 py-2 rounded-none focus:outline-none focus:drop-shadow-blue"
+      class="border rounded border-black-dark bg-black-dark w-full px-2 py-2 rounded-none focus:outline-none"
       :type="type"
       :value="inputValue"
       :placeholder="placeholder"

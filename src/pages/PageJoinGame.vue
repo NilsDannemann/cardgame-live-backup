@@ -5,7 +5,6 @@ import Heading from '../components/Heading.vue';
 import LayoutDefault from '../layouts/LayoutDefault.vue';
 import InputText from '../components/InputText.vue';
 import Button from '../components/Button.vue';
-import IconChevron from '../components/icons/IconChevron.vue';
 import { useGameStore } from '../stores/game';
 
 const { joinGame } = useGameStore();
@@ -36,10 +35,8 @@ const join = handleSubmit(() => {
         </div>
 
         <div class="flex justify-between">
-          <Button as="router-link" to="/" theme="secondary"><IconChevron class="h-5 rotate-180 mr-2" /> Back</Button>
-          <Button :disabled="!values.name || !values.code || !!Object.keys(errors).length" type="submit"
-            >Next <IconChevron class="h-5 ml-2"
-          /></Button>
+          <Button as="router-link" to="/" theme="secondary">Back</Button>
+          <Button :disabled="!values.name || !values.code || !!Object.keys(errors).length" type="submit">Next</Button>
         </div>
       </div>
     </form>

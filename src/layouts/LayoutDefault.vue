@@ -20,8 +20,8 @@ withDefaults(
       <slot />
     </main>
     <footer v-if="showFooter" class="text-center uppercase mb-3">
-      <p class="text-white text-xs">Built in the future by</p>
-      <a class="text-blue drop-shadow-blue" href="https://pixelhop.io" target="_blank">Pixelhop</a>
+      <p class="text-xs text-white">Created by</p>
+      <a class="text-red" href="#" target="_blank">Name</a>
     </footer>
   </div>
 </template>

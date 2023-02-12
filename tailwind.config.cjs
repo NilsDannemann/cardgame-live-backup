@@ -4,7 +4,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: '#000201',
+        black: {
+          DEFAULT: '#273742',
+          'light': '#67737b',
+          'dark': '#1b272e',
+        },
+        white: {
+          DEFAULT: '#ffffff',
+        },
+        grey: {
+          DEFAULT: '#f1f7f9',
+        },
+        red: {
+          DEFAULT: '#ff5d5d',
+          'dark': '#ad3f3e',
+        },
+        blue: {
+          DEFAULT: '#5d9aff',
+          'dark': '#3f6db4',
+        },
         orange: {
           DEFAULT: '#FF7615',
         },
@@ -12,10 +30,10 @@ module.exports = {
           DEFAULT: '#02FFFF',
         },
       },
-      dropShadow: {
-        'blue-sm': '0px 0px 5px #02FFFF',
-        blue: '0px 0px 11px #02FFFF',
-      },
+      // dropShadow: {
+      //   'blue-sm': '0px 0px 5px #02FFFF',
+      //   blue: '0px 0px 11px #02FFFF',
+      // },
     },
   },
   plugins: [],

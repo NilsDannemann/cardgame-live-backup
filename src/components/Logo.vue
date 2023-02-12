@@ -132,10 +132,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <svg class="rotate-3" viewBox="0 0 950 182" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg viewBox="0 0 950 182" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="Logo">
       <g id="text" clip-path="url(#clip0_4_39)">
-        <g id="letters" filter="url(#filter0_d_4_39)">
+        <g id="letters">
           <path id="letter" d="M147.274 124V74.932H122.74V61.36H185.38V74.932H160.846V124H147.274Z" fill="white" />
           <path id="letter_2" d="M211.462 124V61.36H224.773V124H211.462Z" fill="white" />
           <path
@@ -166,13 +166,13 @@ onMounted(() => {
           />
         </g>
       </g>
-      <rect id="logo-end-1" x="96" y="23" width="10" height="133" fill="#FF7615" fill-opacity="0.27" />
-      <rect id="logo-end-2" x="69" y="38" width="10" height="103" fill="#FF7615" fill-opacity="0.27" />
-      <rect id="logo-end-3" x="42" y="62" width="10" height="55" fill="#FF7615" fill-opacity="0.27" />
-      <g id="logo-end-dot" filter="url(#filter1_d_4_39)">
-        <rect x="12" y="81" width="16" height="16" fill="#02FFFF" />
+      <rect id="logo-end-1" x="96" y="23" width="10" height="133" fill="#ff5d5d" fill-opacity="0.27" />
+      <rect id="logo-end-2" x="69" y="38" width="10" height="103" fill="#ff5d5d" fill-opacity="0.27" />
+      <rect id="logo-end-3" x="42" y="62" width="10" height="55" fill="#ff5d5d" fill-opacity="0.27" />
+      <g id="logo-end-dot">
+        <rect x="12" y="81" width="16" height="16" fill="#ff5d5d" />
       </g>
-      <g id="arrow" filter="url(#filter2_d_4_39)">
+      <g id="arrow">
         <rect
           id="arrow-tip-top"
           x="833"
@@ -180,7 +180,7 @@ onMounted(() => {
           width="56"
           height="10"
           transform="rotate(-45 833 64.598)"
-          fill="#FF7615"
+          fill="#ff5d5d"
         />
         <rect
           id="arrow-tip-bottom"
@@ -189,21 +189,21 @@ onMounted(() => {
           width="56"
           height="10"
           transform="rotate(45 840.071 57.4731)"
-          fill="#FF7615"
+          fill="#ff5d5d"
         />
-        <path id="arrow-path" d="M118 151.5H919.5V65H846.5" stroke="#FF7615" stroke-width="10" />
+        <path id="arrow-path" d="M118 151.5H919.5V65H846.5" stroke="#ff5d5d" stroke-width="10" />
       </g>
       <g id="blue-line">
-        <g id="square-1" filter="url(#filter3_d_4_39)">
-          <rect x="800" y="56" width="16" height="16" fill="#02FFFF" />
+        <g id="square-1">
+          <rect x="800" y="56" width="16" height="16" fill="#ff5d5d" />
         </g>
-        <g id="thick-line-1" filter="url(#filter4_d_4_39)">
-          <path d="M775.5 29H559" stroke="#02FFFF" stroke-width="10" />
+        <g id="thick-line-1">
+          <path d="M775.5 29H559" stroke="#ff5d5d" stroke-width="10" />
         </g>
-        <g id="thick-line-2" filter="url(#filter5_d_4_39)">
-          <path d="M334.5 29H118" stroke="#02FFFF" stroke-width="10" />
+        <g id="thick-line-2">
+          <path d="M334.5 29H118" stroke="#ff5d5d" stroke-width="10" />
         </g>
-        <path id="thin-line" d="M808 70.5V29H118.5" stroke="#02FFFF" stroke-opacity="0.32" stroke-width="4" />
+        <path id="thin-line" d="M808 70.5V29H118.5" stroke="#ff5d5d" stroke-opacity="0.32" stroke-width="4" />
       </g>
     </g>
     <defs>

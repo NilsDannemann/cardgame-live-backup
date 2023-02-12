@@ -5,7 +5,6 @@ import Heading from '../components/Heading.vue';
 import LayoutDefault from '../layouts/LayoutDefault.vue';
 import InputText from '../components/InputText.vue';
 import Button from '../components/Button.vue';
-import IconChevron from '../components/icons/IconChevron.vue';
 import { useGameStore } from '../stores/game';
 
 const { newGame } = useGameStore();
@@ -33,10 +32,8 @@ const createGame = handleSubmit(() => {
       </form>
 
       <div class="flex justify-between">
-        <Button as="router-link" to="/" theme="secondary"><IconChevron class="h-5 rotate-180 mr-2" /> Back</Button>
-        <Button :disabled="!values.name || !!Object.keys(errors).length" @click="createGame"
-          >Next <IconChevron class="h-5 ml-2"
-        /></Button>
+        <Button as="router-link" to="/" theme="secondary">Back</Button>
+        <Button :disabled="!values.name || !!Object.keys(errors).length" @click="createGame">Next</Button>
       </div>
     </div>
   </LayoutDefault>
